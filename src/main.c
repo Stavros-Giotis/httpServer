@@ -41,7 +41,6 @@ int main() {
         perror("listening failed");
         exit(EXIT_FAILURE);
     }
-    // ... setup code ...
 
     while(1) {
         printf("\nWaiting for a connection...\n");
@@ -61,7 +60,5 @@ int main() {
     }
     return 0;
 
-
-    return 0;
 }
 
